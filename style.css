@@ -64,14 +64,14 @@ nav div{
 }
 
 .section1 div{
-    height: 500px;
     width:50%;
     margin: 5px;
+    height: 500px;
     transition: background-color 1s;
 }
 
 .section1 div:hover{
-    background-color: red;
+    background-color: rgba(50, 36, 36, 0.5);
 }
 
 .search-bar{
@@ -90,35 +90,72 @@ nav div{
     flex:1;
     height: 160px;
     margin: 5px;
+    cursor:pointer;
     transition: backingtrack 1s;
     transition: background-color 1s;
 }
 
 .section2 div:hover{
-    background-color: red;
-}
-
-.section2 div:hover{
-    background-color: rgba(red, green, blue, 0.5);
+    background-color: rgb(55, 55, 55);
 }
 
 .one img{
     width: 100%;
     object-fit: contain;
+    cursor: pointer;
 }
 
 .two{
-    background-color: lightgreen;
+    background-color: rgb(50, 36, 36);
+    color:white;
+    font-size: 36px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+.two:hover{
+    background-color: rgb(55, 55, 55);
 }
 
 .three{
     background-color: azure;
 }
 
+.three img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .four{
     background-color: lightcyan;
 }
 
+.four img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .five{
     background-color: lightslategray;
+}
+
+.five img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.six img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.seven img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
