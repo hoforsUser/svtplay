@@ -78,7 +78,7 @@ nav div{
     border-radius: 50px;
     height: 15px;
     padding:10px;
-    margin-left: 480px;
+    margin-left: 800px;
 }
 
 .section2{
@@ -108,14 +108,21 @@ nav div{
 .two{
     background-color: rgb(50, 36, 36);
     color:white;
-    font-size: 36px;
     text-align: center;
     cursor: pointer;
     transition: background-color 1s;
 }
 
+.two h1{
+    font-size: 42px;
+}
+
 .two:hover{
     background-color: rgb(55, 55, 55);
+}
+
+.two h1:hover{
+    text-decoration: underline;
 }
 
 .three{
