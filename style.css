@@ -64,7 +64,7 @@ nav div{
 }
 
 .section1 div{
-    height: 400px;
+    height: 500px;
     width:50%;
     margin: 5px;
     transition: background-color 1s;
@@ -102,8 +102,9 @@ nav div{
     background-color: rgba(red, green, blue, 0.5);
 }
 
-.one{
-    background-color: pink;
+.one img{
+    width: 100%;
+    object-fit: contain;
 }
 
 .two{
