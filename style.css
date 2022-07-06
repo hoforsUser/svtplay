@@ -105,15 +105,6 @@ nav div{
     cursor: pointer;
 }
 
-.container2{
-    display: flex;
-    flex-direction: column;
-}
-
-.three-description{
-    color:white;
-}
-
 .two{
     background-color: rgb(50, 36, 36);
     color:white;
@@ -134,8 +125,15 @@ nav div{
     text-decoration: underline;
 }
 
-.three{
-    background-color: azure;
+/*ROW 3*/
+
+.container3{
+    display: flex;
+    flex-direction: column;
+}
+
+.three-description{
+    color:white;
 }
 
 .three img{
@@ -144,8 +142,13 @@ nav div{
     object-fit: cover;
 }
 
-.four{
-    background-color: lightcyan;
+.container4{
+    display: flex;
+    flex-direction: column;
+}
+
+.four-description{
+    color:white;
 }
 
 .four img{
@@ -154,8 +157,13 @@ nav div{
     object-fit: cover;
 }
 
-.five{
-    background-color: lightslategray;
+.container5{
+    display: flex;
+    flex-direction: column;
+}
+
+.five-description{
+    color:white;
 }
 
 .five img{
@@ -164,10 +172,28 @@ nav div{
     object-fit: cover;
 }
 
+.container6{
+    display: flex;
+    flex-direction: column;
+}
+
+.six-description{
+    color: white;
+}
+
 .six img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.container7{
+    display: flex;
+    flex-direction: column;
+}
+
+.seven-description{
+    color:white;
 }
 
 .seven img{
