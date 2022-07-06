@@ -22,13 +22,13 @@ a:hover{
 
 .logo{
     background-image: url("picture/svt_play.png");
-    background-size: 35%;
+    /*background-size: 35%;*/
+    background-size: 80%;
     background-repeat: no-repeat;
     position: relative;
-    top:5px;
-    width: 250px;
-    height: 25px;
-    margin-left: 36px;
+    top:0px;
+    width: 70px;
+    margin-left: 86px;
     cursor: pointer;
 }
 
@@ -54,19 +54,30 @@ nav div{
     gap:10px;
 }
 
-.right-nav{
-    margin-left: auto;
+.search-bar{
+    border-radius: 50px;
+    height: 15px;
+    padding:10px;
+    margin-left: 925px;
 }
 
+/*TEST*/
+.section1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 5px 102px;
+}
+/*
 .section1{
     display: flex;
-    margin: 5px 50px;
+    margin: 5px 100px;
 }
+*/
 
 .section1 div{
-    width:50%;
+    /*width:50%;*/
     margin: 5px;
-    height: 500px;
+    height: 580px;
     transition: background-color 1s;
 }
 
@@ -74,16 +85,9 @@ nav div{
     background-color: rgba(50, 36, 36, 0.5);
 }
 
-.search-bar{
-    border-radius: 50px;
-    height: 15px;
-    padding:10px;
-    margin-left: 800px;
-}
-
 .section2{
     display: flex;
-    margin: 5px 50px;
+    margin: 5px 100px;
 }
 
 .section2 div{
@@ -101,7 +105,9 @@ nav div{
 
 .one img{
     width: 100%;
-    object-fit: contain;
+    height: 100%;
+    object-fit:cover;
+    object-position: center;
     cursor: pointer;
 }
 
